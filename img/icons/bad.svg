@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="20px" viewBox="0 0 98 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>bad deal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bad-deal">
+            <rect id="Rectangle-4" fill="#F4F4F4" x="0" y="9" width="16" height="5" rx="2.5"></rect>
+            <rect id="Rectangle-4-Copy-4" fill="#FD6565" x="0" y="9" width="11" height="5" rx="2.5"></rect>
+            <rect id="Rectangle-4-Copy" fill="#F4F4F4" x="17" y="9" width="16" height="5" rx="2.5"></rect>
+            <rect id="Rectangle-4-Copy-2" fill="#F4F4F4" x="34" y="9" width="16" height="5" rx="2.5"></rect>
+            <rect id="Rectangle-4-Copy-3" fill="#F4F4F4" x="51" y="9" width="16" height="5" rx="2.5"></rect>
+            <text id="Bad" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" line-spacing="20" fill="#FD6565">
+                <tspan x="79" y="10">Bad</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

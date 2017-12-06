@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="325px" height="318px" viewBox="0 0 325 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Copy-10" transform="translate(-30.000000, -94.000000)">
+            <g id="calendar" transform="translate(30.000000, 94.000000)">
+                <path d="M17.9471964,-2.50144505e-15 L307.052804,1.31595861e-14 C313.293435,1.20132007e-14 315.556438,0.649779278 317.83792,1.86992893 C320.119401,3.09007857 321.909921,4.88059859 323.130071,7.16208008 C324.350221,9.44356156 325,11.7065652 325,17.9471964 L325,300.052804 C325,306.293435 324.350221,308.556438 323.130071,310.83792 C321.909921,313.119401 320.119401,314.909921 317.83792,316.130071 C315.556438,317.350221 313.293435,318 307.052804,318 L17.9471964,318 C11.7065652,318 9.44356156,317.350221 7.16208008,316.130071 C4.88059859,314.909921 3.09007857,313.119401 1.86992893,310.83792 C0.649779278,308.556438 2.0572216e-15,306.293435 1.2929647e-15,300.052804 L2.25974898e-15,17.9471964 C1.49549208e-15,11.7065652 0.649779278,9.44356156 1.86992893,7.16208008 C3.09007857,4.88059859 4.88059859,3.09007857 7.16208008,1.86992893 C9.44356156,0.649779278 11.7065652,-1.35505971e-15 17.9471964,-2.50144505e-15 Z" id="expanding-card-background" fill="#FAFAFA"></path>
+                <g id="Numbers" transform="translate(13.000000, 65.000000)">
+                    <text id="1" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="56.9077148" y="53">1</tspan>
+                    </text>
+                    <text id="30" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="8.02539062" y="53">30</tspan>
+                    </text>
+                    <text id="2" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="100.995117" y="53">2</tspan>
+                    </text>
+                    <text id="3" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="144.817383" y="53">3</tspan>
+                    </text>
+                    <text id="4" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="188.680664" y="53">4</tspan>
+                    </text>
+                    <text id="5" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="233.85498" y="53">5</tspan>
+                    </text>
+                    <text id="6" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="276.711426" y="53">6</tspan>
+                    </text>
+                    <text id="MON" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="43.2016602" y="13">MON</tspan>
+                    </text>
+                    <text id="SUN" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="2.05078125" y="13">SUN</tspan>
+                    </text>
+                    <text id="TUE" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="91.1787109" y="13">TUE</tspan>
+                    </text>
+                    <text id="WED" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="132.851074" y="13">WED</tspan>
+                    </text>
+                    <text id="THU" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="178.050781" y="13">THU</tspan>
+                    </text>
+                    <text id="FRI" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="227.227539" y="13">FRI</tspan>
+                    </text>
+                    <text id="SAT" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="267.024902" y="13">SAT</tspan>
+                    </text>
+                    <text id="7" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="13.2651367" y="97">7</tspan>
+                    </text>
+                    <text id="8" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="55.6430664" y="97">8</tspan>
+                    </text>
+                    <text id="9" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="100.711426" y="97">9</tspan>
+                    </text>
+                    <text id="10" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="141.115723" y="97">10</tspan>
+                    </text>
+                    <text id="11" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="186.31543" y="97">11</tspan>
+                    </text>
+                    <text id="12" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="230.402832" y="97">12</tspan>
+                    </text>
+                    <text id="13" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="273.225098" y="97">13</tspan>
+                    </text>
+                    <text id="14" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="9.08837891" y="141">14</tspan>
+                    </text>
+                    <text id="15" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="52.2626953" y="141">15</tspan>
+                    </text>
+                    <circle id="Oval-Copy" fill="#4BAEE0" cx="149" cy="136" r="15"></circle>
+                    <text id="16" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#4BAEE0">
+                        <tspan x="97.1191406" y="141">16</tspan>
+                    </text>
+                    <text id="17" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="141.672852" y="141">17</tspan>
+                    </text>
+                    <text id="18" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="185.050781" y="141">18</tspan>
+                    </text>
+                    <text id="19" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="230.119141" y="141">19</tspan>
+                    </text>
+                    <text id="20" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="272.203125" y="141">20</tspan>
+                    </text>
+                    <text id="21" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="9.40283203" y="186">21</tspan>
+                    </text>
+                    <text id="22" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="51.4902344" y="186">22</tspan>
+                    </text>
+                    <text id="23" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="96.3125" y="186">23</tspan>
+                    </text>
+                    <text id="24" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="140.175781" y="186">24</tspan>
+                    </text>
+                    <circle id="Oval" fill="#D14444" cx="238" cy="181" r="15"></circle>
+                    <text id="25" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="184.350098" y="186">25</tspan>
+                    </text>
+                    <text id="26" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="229.206543" y="186">26</tspan>
+                    </text>
+                    <text id="27" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="272.760254" y="186">27</tspan>
+                    </text>
+                    <text id="28" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="8.13818359" y="229">28</tspan>
+                    </text>
+                    <text id="29" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#000000">
+                        <tspan x="51.206543" y="229">29</tspan>
+                    </text>
+                    <text id="30" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="96.0253906" y="229">30</tspan>
+                    </text>
+                    <text id="31" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="141.225098" y="229">31</tspan>
+                    </text>
+                    <text id="1" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="189.907715" y="229">1</tspan>
+                    </text>
+                    <text id="2" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="233.995117" y="229">2</tspan>
+                    </text>
+                    <text id="3" opacity="0.2" font-family="SFUIText-Bold, SF UI Text" font-size="14" font-weight="bold" fill="#2B2B2B">
+                        <tspan x="276.817383" y="229">3</tspan>
+                    </text>
+                </g>
+                <path d="M17.9471964,-2.50144505e-15 L307.052804,1.49359429e-14 C313.293435,1.37895576e-14 315.556438,0.649779278 317.83792,1.86992893 C320.119401,3.09007857 321.909921,4.88059859 323.130071,7.16208008 C324.350221,9.44356156 325,11.7065652 325,17.9471964 L325,55 L4.83392144e-16,55 L2.25974898e-15,17.9471964 C1.49549208e-15,11.7065652 0.649779278,9.44356156 1.86992893,7.16208008 C3.09007857,4.88059859 4.88059859,3.09007857 7.16208008,1.86992893 C9.44356156,0.649779278 11.7065652,-1.35505971e-15 17.9471964,-2.50144505e-15 Z" id="expanding-card-background-copy" fill="#4BAEE0"></path>
+                <text id="Dec" font-family="SFUIText-Bold, SF UI Text" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="145" y="34">Dec</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

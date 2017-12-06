@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="214px" height="118px" viewBox="0 0 214 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Money meter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.31322038e-30,107 C9.15864041e-15,47.9055318 47.9055318,0 107,0 C166.094468,0 214,47.9055318 214,107 L200,107 C200,55.6375183 158.362482,14 107,14 C55.6375183,14 14,55.6375183 14,107 L3.55271368e-15,107 Z" id="path-1"></path>
+    </defs>
+    <g id="Visual-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pool-you" transform="translate(-82.000000, -94.000000)">
+            <g id="above-tab" transform="translate(58.000000, 94.000000)">
+                <g id="Money-meter" transform="translate(24.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(66.000000, 57.000000)" font-family="SFUIText-Bold, SF UI Text" fill="#FFFFFF" font-weight="bold">
+                        <text id="$150" font-size="31">
+                            <tspan x="0.440185547" y="30">$150</tspan>
+                        </text>
+                        <text id="Pledged" opacity="0.4" font-size="14">
+                            <tspan x="11" y="58">Pledged</tspan>
+                        </text>
+                    </g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="base-circle" fill="#FFFFFF" opacity="0.4" xlink:href="#path-1"></use>
+                    <path d="M-40.9833777,194.889137 C-40.9833777,135.794669 6.92215406,87.8891371 66.0166223,87.8891371 C125.111091,87.8891371 173.016622,135.794669 173.016622,194.889137 L159.016622,194.889137 C159.016622,143.526655 117.379104,101.889137 66.0166223,101.889137 C14.6541406,101.889137 -26.9833777,143.526655 -26.9833777,194.889137 L-40.9833777,194.889137 Z" id="green-circle" fill="#00E17A" mask="url(#mask-2)" transform="translate(66.016622, 141.389137) rotate(-130.000000) translate(-66.016622, -141.389137) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

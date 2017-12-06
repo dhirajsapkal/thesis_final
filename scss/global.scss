@@ -1,0 +1,1005 @@
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    // overflow: hidden;
+}
+
+a, a:hover, a:active, a:focus{
+	color: $dark-grey;
+}
+
+
+.grid-container.fluid{
+	padding: 0;
+}
+
+.tabs-panel{
+	padding: 0;
+}
+
+.white{
+	color: #fff;
+}
+
+.flex-parent{
+	flex-flow: column nowrap;
+  display: flex;
+}
+
+.flex-child{
+	margin: auto;
+}
+
+
+
+h1{
+	font-weight: bold;
+	color: $dark-grey;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 18px;
+	color: $dark-grey;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+.top-nav{
+	padding: 25px 20px 20px 30px;
+}
+
+#owl-suggested, #owl-tickets, #owl-tickets-past{
+	padding-left: 30px;
+}
+
+
+
+
+.home-slider-card{
+	width: 313px;
+	height: 360px;
+	background-size: cover;
+	border-radius: 14px;
+	position: relative;
+	overflow: hidden;
+	 &:before {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 43%, #000000 80%);
+		opacity: .8; 
+		/* Rectangle 5: */
+
+  }
+}
+
+.home-slider-card-1{
+	background: url('../img/home/suggested/1.jpg')center center no-repeat;
+}
+.home-slider-card-2{
+	background: url('../img/home/suggested/2.jpg')center center no-repeat;
+}
+.home-slider-card-3{
+	background: url('../img/home/suggested/3.jpg')center center no-repeat;
+}
+.home-slider-card-4{
+	background: url('../img/home/suggested/4.jpg')center center no-repeat;
+}
+
+.bottom-nav{
+	background-color: $dark-grey;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+}
+
+.tabs-content{
+	border: none;
+  background: #fff;
+  color: $dark-grey;
+}
+
+
+.suggested-card-text{
+  position: absolute;
+  color: #fff;
+  bottom: 30px;
+  left: 30px;
+}
+
+.suggested-card-text p{
+	font-weight: medium;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 23px;
+	max-width: 230px;
+}
+
+.home-browse{
+	margin: 30px 20px 20px 30px;
+}
+
+
+
+.browse-box h2{
+	font-weight: heavy;
+	font-size: 14px;
+	color: $dark-grey;
+	letter-spacing: 0;
+	line-height: 124px;
+	text-transform: uppercase;
+	z-index: 3;
+	position: relative;
+}
+
+.browse-box-concerts{
+	background: url('../img/home/browse/concerts.jpg') center no-repeat;
+	border-radius: 14px 14px 0 14px;
+}
+.browse-box-sports{
+	background: url('../img/home/browse/sports.jpg') center no-repeat;
+	border-radius: 14px 14px 14px 0;
+
+}
+.browse-box-theater{
+	background: url('../img/home/browse/theater.jpg') center no-repeat;
+	border-radius: 14px 0 14px 14px;
+}
+.browse-box-all{
+	background: url('../img/home/browse/all.jpg') center no-repeat;
+	border-radius: 0 14px 14px 14px;
+}
+
+.browse-box{
+	height: 124px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 10px;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	 &:after {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		opacity: .8; 
+		/* Rectangle 5: */
+
+  }
+
+}
+
+.main-content{
+	padding: 78px 0;
+}
+
+.main-content-pools, .main-content-guns{
+	padding: 152px 0;
+}
+
+.top-nav{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #fff;
+}
+
+.home-around-you{
+	margin: 30px 20px 20px 30px;
+}
+
+
+
+.home-event-box-text{
+  margin-top: auto;
+  position: relative;
+	z-index: 3;
+}
+
+.home-event-box-text h2{
+	font-weight: bold;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.home-event-box-text p{
+	font-weight: medium;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 20px;
+}
+
+.home-event-date h2, .home-event-date p{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.home-event-box-zedd{
+	background: url('../img/home/around/zedd.jpg')center no-repeat;
+
+}
+.home-event-box-katy{
+	background: url('../img/home/around/katy.jpg')center no-repeat;
+}
+.home-event-box-phantom{
+	background: url('../img/home/around/phantom.jpg')center no-repeat;
+}
+.home-event-box-iheart{
+	background: url('../img/home/around/iheart.jpg')center no-repeat;
+}
+.home-event-box-washington{
+	background: url('../img/home/around/washington.jpg')center no-repeat;
+}
+
+.home-event-box{
+	margin: 20px 0px 0px 0px;
+	padding: 20px;
+	height: 225px;
+	background-size: cover;
+	border-radius: 14px;
+	//to align the text to the bottom
+	flex-flow: column nowrap;
+  display: flex;
+  position: relative;
+	overflow: hidden;
+	 &:after {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 43%, #000000 80%);
+		opacity: .8; 
+		/* Rectangle 5: */
+
+  }
+}
+
+.bottom-nav-tabs img{
+	display: block;
+}
+
+.bottom-nav-tabs, .tabs-top{
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.bottom-nav-tabs-title, .tabs-top-title{
+	width: 100%;
+}
+
+.tabs-title{
+	padding: 0;
+}
+
+.bottom-nav-tabs-title>a{
+	font-weight: bold;
+	font-size: 12px;
+	color: #999999;
+	letter-spacing: 0;
+	padding: 0;
+}
+
+.bottom-nav-tabs-title>a p{
+	margin-bottom: 10px;
+}
+
+.bottom-nav-tabs-title>a:focus, .bottom-nav-tabs-title>a[aria-selected='true']{
+	background: none;
+	box-shadow: inset 0px -4px 0px 0px $brand;
+	outline: none;
+}
+
+.bottom-nav-tabs-title>a:focus, .bottom-nav-tabs-title>a[aria-selected='true'] svg path {
+    fill: $brand!important;
+}
+
+.bottom-nav-tabs-title>a:focus, .bottom-nav-tabs-title>a[aria-selected='true']{
+	color: $brand;
+	outline: none;
+}
+
+
+.tabs-top{
+	padding-left: 30px;
+  position: fixed;
+  top: 78px;
+  width: 100%;
+  z-index: 5;
+  background-color: #fff;
+}
+
+.tabs-top-title>a{
+	font-weight: bold;
+	font-size: 14px;
+	color: $dark-grey;
+	letter-spacing: 0;
+	opacity: 0.6;
+}
+
+.tabs-top-title>a:focus, .tabs-top-title>a[aria-selected='true']{
+	background: none;
+	box-shadow: inset 0px -4px 0px 0px $brand;
+	opacity: 1;
+}
+
+.tabs-top-title>a:focus, .tabs-top-title>a[aria-selected='true']{
+	color: $dark-grey;
+	outline: none;
+}
+
+
+.pool-container{
+	margin: 10px 20px 0px 30px;
+}
+
+.pool-image-eagles{
+	background: url('../img/pools/1.jpg')center no-repeat;
+}
+
+.pool-image{
+	height: 161px;
+	width: 100%;
+	border-radius: 14px;
+	background-size: cover;
+	//to align the text to the bottom
+	flex-flow: column nowrap;
+  display: flex;
+  position: relative;
+	overflow: hidden;
+	 &:after {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 43%, #000000 80%);
+		opacity: .4; 
+		/* Rectangle 5: */
+
+  }
+}
+
+
+.pool-text-container{
+	margin: 15px 0;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+
+
+
+// Crap css
+.ticket-background{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	content: "";
+	background: url('../img/tickets/tickets/background.jpg')center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	 &:after {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		/* Rectangle 5: */
+		background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, #000000 45%);
+		opacity: 1; 
+		/* Rectangle 5: */
+
+  }
+}
+
+.ticket-background .top-nav, .ticket-background .tabs-top, .ticket-background .top-nav h1, .ticket-background .tabs-top-title a, .guns-background .top-nav, .guns-background .tabs-top, .guns-background .top-nav h1, .guns-background .tabs-top-title a
+, .create-pool-background .top-nav, .create-pool-background .tabs-top, .create-pool-background .top-nav h1, .create-pool-background .tabs-top-title a, .above-tabs .top-nav, .brand-background .top-nav, .brand-background .top-nav h1{
+	background: transparent;
+	color: #fff;
+}
+
+#owl-tickets, #owl-tickets-past{
+	z-index: 4;
+	padding-right: 20px;
+	padding-top: 84px;
+}
+
+.tabs-content-tickets{
+	background: transparent;
+	// margin-top: 100px;
+}
+
+#owl-tickets h2, #owl-tickets-past h2{
+	color: #fff;
+	margin-top: 30px;
+}
+
+#owl-tickets p, #owl-tickets-past p{
+	color: #A9A9A9;
+}
+
+.owl-tickets-tickets img{
+	width: 30vh!important;
+}
+
+.primary-button{
+	background: #4BAEE0;
+	border-radius: 14px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	padding: 15px 30px;
+	margin: 0;
+}
+
+.going-with-icons img{
+	width: 30px!important;
+	display: inline-block!important;
+}
+
+#pane-tickets-1{
+	height: 86vh;
+  // display: flex;
+  // flex-flow: column nowrap;
+}
+
+
+
+#pane-account-1, #pane-account-2{
+	margin-top: 78px;
+}
+
+.activity-box{
+	margin: 20px 20px 0px 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+.activity-box p{
+	font-weight: bold;
+	font-size: 14px;
+	color: #626262;
+	letter-spacing: 0;
+	line-height: 20px;
+	margin: 10px 0 0 0;
+}
+
+.activity-box h2{
+	margin: 0;
+}
+
+.activity-box span{
+	font-weight: bold;
+	font-size: 14px;
+	color: #A9A9A9;
+	letter-spacing: 0;
+	margin: 0 0 0 10px;
+}
+
+
+.wallet-card{
+	background-image: linear-gradient(-134deg, #78E942 0%, #00AA5E 100%);
+	border-radius: 14px;
+	height: 205px;
+	margin: 0px 20px 30px 30px;
+	padding: 20px 20px 20px 30px;
+	letter-spacing: 0;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.31);
+}
+
+.wallet-numbers{
+	text-align: right;
+}
+
+.wallet-dollar{
+	opacity: 0.67;
+	font-weight: normal;
+	font-size: 40px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.wallet-balance{
+	font-weight: normal;
+	font-size: 70px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.wallet-decimal{
+	opacity: 0.67;
+	font-weight: normal;
+	font-size: 35px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.wallet-card p{
+	font-weight: normal;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 23px;
+	margin: 0;
+}
+
+.credit-cards, .bank-accounts{
+	padding: 0px 20px 0 30px;
+}
+
+#owl-cards, #owl-banks{
+	margin-top: 20px;
+}
+
+
+
+.credit-cards a, .bank-accounts a{
+	margin: 0 20px 0 0;
+}
+
+.bank-accounts{
+	margin-top: 30px;
+}
+
+.secondary-button{
+	background: none;
+	padding: 0;
+	color: $brand;
+	padding: 0;
+	display: flex;
+}
+
+.secondary-button:hover, .secondary-button:focus{
+	background: none;
+	color: $brand;
+}
+
+.secondary-button p{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0!important;
+
+}
+
+.secondary-button svg{
+	margin-right: 10px;
+}
+
+#pane-account-3{
+	padding: 48px 0 60px 30px;
+}
+
+.my-label{
+	opacity: 0.4;
+	font-weight: bold;
+	margin-bottom: 0px;
+	font-size: 18px;
+	color: #2B2B2B;
+	letter-spacing: 0;
+	margin-top: 40px;
+}
+
+.indented-labels{
+	padding: 20px 20px 20px 40px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.indented-labels .secondary-button{
+	margin: 0;
+}
+
+//Guns N roses event listing page
+.guns-background{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	background-color: #000;
+	position: relative;
+	 &:after {
+    content: '';
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		opacity: .8; 
+		/* Rectangle 5: */
+		background-image: url('../img/guns_listing/bg.jpg');
+		z-index: -1;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+  }
+
+}
+
+.main-content-guns{
+	z-index: 2;
+}
+
+.main-content-guns .tabs-content{
+	background: none;
+}
+
+.event-listing-item{
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 20px;
+	background-color: #fff;
+	border-radius: 14px;
+	margin-bottom: 15px;
+}
+
+.event-listing-item p{
+	margin: 0;
+	font-size: 14px;
+}
+
+.event-listing-item h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.event-listing-item .event-location{
+	margin-bottom: 4px;
+}
+
+.event-listing-item .faded-label, .guns-pool-you .faded-label, #everyone .faded-label{
+	font-weight: bold;
+	font-size: 14px;
+	color: #A9A9A9;
+	letter-spacing: 0;
+}
+
+//Create pool page
+.create-pool-background{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	background-color: #000;
+	position: relative;
+	 &:after {
+    content: '';
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		opacity: .8; 
+		/* Rectangle 5: */
+		background-image: url('../img/create-pool/bg.jpg');
+		z-index: -1;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+  }
+}
+
+.create-pool-tabs{
+	margin-top: 20px;
+	border: none;
+	border-top: 1px solid #f5f5f5;
+}
+
+
+.event-listing-item .tabs-top-title a{
+	color: $dark-grey;
+}
+
+
+.create-pool-tabs-content{
+	padding-top: 20px;
+}
+
+.disabled{
+	opacity: 0.2;
+}
+
+.seperator{
+  width: 100%;
+  height: 1px;
+  background: #f5f5f5;
+  margin: 20px 0;
+}
+
+.add-friends-section{
+	padding: 0 20px 20px 30px;
+}
+
+.add-friends-section p{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.add-friends-section h2{
+	margin-bottom: 15px;
+	opacity: 0.4;
+}
+
+.suggested-friends-section{
+	background-color: #f5f5f5;
+	padding-top: 20px
+}
+
+
+.search-bar{
+	margin-left: 30px;
+}
+
+.search-bar [type='text'], [type='password'], [type='date'], [type='number'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  height: 65px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.all-friends-section p{
+	margin: 0;
+}
+
+.contact-list-item{
+	padding: 5px 0;
+	border-bottom: 1px solid #f5f5f5;
+	font-weight: bold;
+}
+
+.text-button{
+	background: transparent;
+	color: $brand;
+}
+
+.bottom-nav-buttons{
+	background-color: $dark-grey;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 7px 20px 7px 30px;
+}
+
+.slider{
+	margin: 0px 20px 0px 30px;
+	background-color: #f4f4f4;
+	border-radius: 14px;
+}
+
+[type='number']{
+	font-size: 30px;
+	color: #4BAEE0;
+	letter-spacing: 0;
+	font-weight: bold;
+	height: auto;
+	width: auto;
+}
+
+.slider-handle{
+	background-color: $brand;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.slider-fill{
+	background-color: $brand;
+	border-radius: 14px;
+}
+
+.slider-handle:hover{
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.23);
+	background-color: $brand;
+}
+
+.budget-dollar p{
+	opacity: 0.4;
+	font-weight: bold;
+	margin: 0;
+	font-size: 20px;
+	color: #2B2B2B;
+	letter-spacing: 0;
+}
+
+.budget-content p{
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.budget-text-container{
+	margin: 0 20px 20px 30px;
+}
+
+.deadline-text img{
+	margin-top: 27px;
+	margin-bottom: 22px;
+}
+
+
+// Guns pool
+.above-tabs{
+	background-image: url('../img/guns-pool/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 90px 0 40px 0;
+}
+
+.above-tabs .top-nav h1{
+	color: white;
+}
+
+.below-tabs{
+	padding: 0 20px 30px 30px;
+}
+
+.below-tabs .tabs{
+	border: none;
+}
+
+.guns-pool-text-container{
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#you a{
+	margin-top: 36px;
+}
+
+.guns-pool-you .faded-label{
+	margin-bottom: 14px;
+}
+
+.guns-pool-you h1{
+	font-size: 31px;
+}
+
+#everyone p{
+	margin-bottom: 0;
+}
+
+#everyone .faded-label{
+	margin-top: 2px;
+}
+
+#events .event-listing-item{
+	margin: 0;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.switch{
+	margin-bottom: 0;
+}
+
+.switch-paddle{
+	border-radius: 14px;
+}
+
+.switch-paddle::after{
+	border-radius: 50%;
+	background-image: url('../img/icons/access.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+input:checked ~ .switch-paddle{
+	background: $brand;
+}
+
+.tabs-transparent{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 28px;
+}
+
+.tabs-transparent-content{
+	background: transparent;
+}
+
+.seat-name{
+	margin-bottom: 10px;
+}
+
+.ticket-view-content .event-listing-item{
+	margin-bottom: 0;
+	border-radius: 14px 14px 0px 0px;
+}
+
+.ticket-view-content .event-listing-item-inverse{
+	border-radius: 0 0 14px 14px;
+}
+
+#owl-seat-view{
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+//payment page
+
+.brand-background{
+	background: $brand;
+}
+
+// Summary page
+
+.summary-box{
+	background: #F4F4F4;
+	border-radius: 14px;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.summary-box .fade{
+	opacity: 0.6;
+}
+
+.summary-box .last-cost, .summary-box .last-label{
+	margin-bottom: 0;
+}
+
+.summary-box .last-cost{
+	color: #FA6060;
+}
+
+.dark-seperator{
+	width: 100%;
+	height: 1px;
+	background-color: #e5e5e5;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
